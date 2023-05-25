@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.main__greetings,
+.main__search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &.main__greetings_text {
+    margin: 40px;
+    width: 293px;
+    height: 28px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #3629b7;
+  }
+  &.search__input {
+    margin: 40px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 58px;
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 15px;
+    padding: 17px 62px;
+  }
+  &.search__SearchIcon {
+    position: relative;
+    top: 0px;
+    left: 110px;
+    width: 18.75px;
+    height: 18.75px;
+    margin: 19px 24px;
+  }
+}
+.main__today {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  background: #f7f9fd;
+  border-radius: 12px;
+  &.weatherIcon {
+    margin: 26px;
+    width: 47px;
+    height: 47px;
+  }
+  &.temperature {
+    margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #11263c;
+  }
+  &.watherToDay {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 30px 32px;
+    padding-right: 18px;
+    padding: 8px 18px 8px 0px;
+    border-right: 1px solid #11263c;
+    border-radius: 0px;
+  }
+}

@@ -1,0 +1,63 @@
+.consumptionScale {
+  position: relative;
+  display: flex;
+  background-color: #edffef;
+  border-radius: 12px;
+  div.circleIntake {
+    position: relative;
+  }
+  .procent {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin: 35px 31px;
+  }
+  .circleIntake__circleDown {
+    position: absolute;
+    top: 20px;
+    left: 19.5px;
+    color: red;
+  }
+  .circleIntake__circleTop {
+    position: absolute;
+    top: 20px;
+    left: 19.5px;
+  }
+  .consumptionScale__text {
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    color: #55a55e;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 64px;
+    .consumptionScale__text-period {
+      margin: 16px 0 4px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .consumptionScale__text-ml {
+      margin-top: 0px;
+      font-weight: 700;
+      font-size: 18.3214px;
+      line-height: 27px;
+    }
+  }
+  .lines {
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    &.lines-top {
+      width: 73px;
+      height: 42px;
+    }
+    &.lines-bottom {
+      width: 67px;
+      height: 36px;
+    }
+  }
+}

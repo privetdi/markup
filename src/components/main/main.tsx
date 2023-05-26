@@ -1,8 +1,11 @@
 import React from "react";
-import SearchIcon from "./searchIcon.svg";
-import weatherIcon from "./weatherIcon.png";
+import SearchIcon from "./assets/searchIcon.svg";
+import weatherIcon from "./assets/weatherIcon.png";
+import circle80 from "./assets/Ellipse 68.svg";
+import circle80top from "./assets/Ellipse 69.svg";
 
 import "./main.scss";
+import ConsumptionScale from "./consumptionScale";
 
 function Main() {
   return (
@@ -30,6 +33,29 @@ function Main() {
         <h1 className="main__today watherToDay">
           It’s a <b>&thinsp;Sunny Day&thinsp;</b> today!
         </h1>
+      </div>
+      <div className="intake">
+        <ConsumptionScale
+          circleDown={circle80}
+          circleTop={circle80top}
+          classNameColor={"123"}
+          ml={5000}
+          text={"aefwe"}
+        />
+        <ConsumptionScale
+          circleDown={circle80}
+          circleTop={circle80top}
+          classNameColor={"123"}
+          ml={5000}
+          text={"aefwe"}
+        />{" "}
+        <ConsumptionScale
+          circleDown={circle80}
+          circleTop={circle80top}
+          classNameColor={"123"}
+          ml={5000}
+          text={"aefwe"}
+        />{" "}
       </div>
     </div>
   );
